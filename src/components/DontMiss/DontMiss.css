@@ -1,0 +1,89 @@
+.dontmiss-section {
+    background-color: #181b2a;
+    padding: 60px 0;
+    margin-bottom: 50px;
+    
+}
+
+.dontmiss-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.dontmiss-channels-container {
+    flex: 30%;
+    
+}
+.dontmiss-channels {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.dontmiss-text {
+    flex: 50%;
+    padding-right: 7em;
+    margin-bottom: 40px;
+}
+
+.dontmiss-text .heading {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+
+.dontmiss-text .subheading {
+    text-transform: none;
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--color-white);
+    margin-bottom: 20px;
+}
+.dontmiss-text .description {
+    font-size: 17px;
+    color: var(--color-white);
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.channel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: var(--color-white);
+    border-radius: 20px;
+}
+
+.channel-img {
+    
+}
+
+@media (max-width: 436px) {
+    .channel-img {
+        max-width: 100%; /* Make sure the image doesn't exceed its container */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove any default inline styling */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+}
+
+@media (max-width: 768px) {
+    .dontmiss-channels {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .dontmiss-text {
+        flex: 50%;
+        padding-right: 0;
+    }
+
+}

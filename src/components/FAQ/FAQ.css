@@ -1,0 +1,66 @@
+.faq-section {
+    background-color: var(--color-white);
+    padding: 80px 0;
+    margin: auto;
+    text-align: center;
+}
+.faq .subheading , .faq .heading {
+    text-align: center;
+
+}
+
+.faq {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+.heading.whatsapp {
+    padding-top: 40px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.whatsapp-icon {
+    margin-right: 10px;
+}
+
+.faq_whatsapp-button {
+    background-color: #08d37c;
+    padding: 8px 24px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 40px;
+    margin: 0 auto;
+    align-items: center;
+    display: inline-flex;
+}
+
+.faq_whatsapp-button:hover {
+    background-color: white;
+    color: #08d37c;
+    border: #08d37c solid 2px;
+}
+
+@media (max-width : 1300px ) {
+    .faq {
+        width: 60%;
+    }
+}
+
+@media (max-width : 800px ) {
+    .faq {
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    .faq {
+        width: 90%;
+    }
+}

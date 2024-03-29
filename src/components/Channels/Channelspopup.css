@@ -1,0 +1,11 @@
+.channels-popup {
+    position: fixed;
+    top: 40px;
+    right: 0;
+    left: 0;
+    z-index: 110;
+    max-width: 70%;
+    margin: auto;
+    overflow-y: scroll;
+}
+

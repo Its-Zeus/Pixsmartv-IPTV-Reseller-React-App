@@ -1,0 +1,106 @@
+.footer-copyright {
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+
+@media (max-width : 1300px ) {
+    .footer-copyright {
+        align-items: center;
+        margin: auto;
+        width: 80%;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width : 800px ) {
+    .footer-copyright {
+        align-items: center;
+        margin: auto;
+        width: 90%;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer-copyright {
+        align-items: center;
+        margin: auto;
+        width: 95%;
+        border-radius: 10px;
+    }
+}
+
+
+
+footer {
+    padding: 36px 0;
+    background-color: #181b2a;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.about-us-description {
+    font-weight: 500;
+    color: #b2b6be;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footer-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-black);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.footer-link {
+    background-color: var(--color-white);
+    padding: 9px 26px;
+    margin-right: 4px;
+    margin-left: 4px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-copyright {
+    background-color: rgb(255 255 255 / 6%);
+    padding: 22px 10px;
+}
+
+
+.footer-copyright-text {
+    font-weight: 500;
+    color: #b2b6be;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-email {
+    color: var(--color-white);
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.footer-payments {
+    padding-top: 15px;
+    display: block;
+    margin: auto;
+}

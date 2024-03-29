@@ -1,0 +1,79 @@
+.main-area {
+    background-image: url("../../assets/hdr-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    margin-bottom: 40px;
+    
+}
+
+.container {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 240px 0 220px;
+    max-width: 50%;
+}
+
+.title {
+    color: var(--color-white);
+    font-size: 54px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+.description-content {
+    font-size: 18px;
+    font-weight: 100px;
+    color: var(--color-white);
+    color: #e1e1e1;
+    line-height: 1.6;
+}
+
+.order-button {
+    background-color: #122cb7;
+    padding: 8px 24px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 40px;
+    margin: auto;
+}
+
+.order-button:hover {
+    background-color: var(--color-white);
+    color: #122cb7;
+    transition: background-color 0.3s ease;
+}
+
+
+@media (min-width: 768px) {
+
+    @media (min-width: 992px) {
+        @media (min-width: 1400px) {
+        }
+    
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 80%;
+    }
+    .container {
+        padding: 150px 0;
+
+    }
+    .title {
+        font-size: 40px;
+    }
+    .order-button {
+        padding: 12px 30px;
+        margin: auto;
+    }
+}

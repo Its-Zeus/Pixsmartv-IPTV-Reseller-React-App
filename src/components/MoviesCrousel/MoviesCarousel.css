@@ -1,0 +1,47 @@
+.movies-carousel {
+    
+}
+.movies-section .description {
+    display: block;
+    font-size: 17px;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+}
+.carousel-movie {
+    margin-right: 0px;
+    height: auto;
+}
+.carousel-movie img {
+    max-height: 100%;
+    border-radius: 10px;
+    vertical-align: center;
+    margin: auto;
+}
+
+.movies-section {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.movies-section .subheading {
+    margin-bottom: 8px;
+}
+
+.movies-section .heading {
+    margin-bottom: 20px;
+}
+
+
+.movies-section h3 {
+    max-width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    .movies-section h3 {
+        max-width: 80%;
+    }
+}
