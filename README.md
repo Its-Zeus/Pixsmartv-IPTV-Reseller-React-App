@@ -2,6 +2,10 @@
 
 This is a React web application designed for IPTV resellers to showcase their services and offer an interactive platform for users to explore available channels, subscription plans, tutorials, reviews, and more. The application provides a responsive layout to ensure optimal viewing experience across various devices.
 
+## Preview
+
+You can preview the application [here](https://remarkable-brigadeiros-76026e.netlify.app/).
+
 ## Features
 
 1. **Channels List**: Browse through a comprehensive list of available channels categorized by genres or types.
