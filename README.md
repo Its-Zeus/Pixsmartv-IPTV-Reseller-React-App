@@ -4,7 +4,7 @@ This is a React web application designed for IPTV resellers to showcase their se
 
 ## Preview
 
-You can preview the application [here](https://remarkable-brigadeiros-76026e.netlify.app/).
+You can preview the application [here](https://inquisitive-shortbread-2cee27.netlify.app/).
 
 ## Features
 
